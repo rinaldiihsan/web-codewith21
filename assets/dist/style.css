@@ -28,8 +28,8 @@
 .sidebar {
   position: fixed;
   top: 0;
-  right: -16rem; /* Lebar sidebar saat tertutup */
-  width: 16rem; /* Lebar sidebar saat terbuka */
+  right: -13rem; /* Lebar sidebar saat tertutup */
+  width: 12rem; /* Lebar sidebar saat terbuka */
   height: 100%;
   background-color: #1a202c;
   transition: right 0.3s ease;
