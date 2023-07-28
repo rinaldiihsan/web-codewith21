@@ -1,0 +1,77 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .container ul li a:hover {
+  background-color: #101010;
+  border-radius: 4px;
+  padding: 2px 10px;
+  transition: linear 0.3s;
+  color: white;
+}
+
+/* Tampilan untuk tampilan desktop */
+.nav-menu {
+  display: flex;
+}
+
+/* Tampilan untuk tombol hamburger di tampilan mobile */
+.hamburger-btn {
+  display: none;
+}
+
+/* Tampilan untuk daftar menu saat tampilan mobile dengan sidebar di sebelah kanan */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -16rem; /* Lebar sidebar saat tertutup */
+  width: 16rem; /* Lebar sidebar saat terbuka */
+  height: 100%;
+  background-color: #1a202c;
+  transition: right 0.3s ease;
+}
+
+.sidebar.show-sidebar {
+  right: 0;
+}
+
+.sidebar ul {
+  margin-top: 4rem;
+  padding: 0;
+}
+
+.sidebar li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.sidebar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+  background-color: #4a5568;
+}
+
+/* Tampilan untuk daftar menu di desktop */
+@media (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .hamburger-btn {
+    display: block;
+  }
+
+  .nav-menu-mobile {
+    display: none;
+  }
+}
