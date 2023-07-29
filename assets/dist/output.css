@@ -821,20 +821,20 @@ video {
   display: none;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-3 {
-  height: 0.75rem;
-}
-
 .h-4 {
   height: 1rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .w-11 {
   width: 2.75rem;
+}
+
+.w-4 {
+  width: 1rem;
 }
 
 .w-6 {
@@ -847,14 +847,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-3 {
-  width: 0.75rem;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .flex-shrink {
