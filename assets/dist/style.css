@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -61,7 +65,27 @@
   background-color: #4a5568;
 }
 
-/* Tampilan untuk daftar menu di desktop */
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9999;
+  background-color: #101010;
+  color: #fff;
+  border: none;
+  border-radius: 40%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #1a202c;
+}
+
 @media (max-width: 767px) {
   .nav-menu {
     display: none;

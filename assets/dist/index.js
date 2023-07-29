@@ -20,3 +20,14 @@ document.addEventListener('click', (event) => {
     sidebar.classList.remove('show-sidebar');
   }
 });
+
+// Fungsi untuk scroll halaman ke atas
+function scrollToTop() {
+  // Scroll ke atas halaman dengan animasi smooth
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+}
+
+feather.replace();
